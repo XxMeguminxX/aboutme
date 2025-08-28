@@ -21,13 +21,9 @@ Sebuah website personal yang sederhana namun elegan, menampilkan profil diri dal
 - **Font Awesome**: Library ikon untuk media sosial
 - **Google Fonts**: Typography yang modern dan elegan
 
-## 🚀 Demo
-
-Kunjungi website live: [Kartu Profil Personal](https://github.com/XxMeguminxX)
-
 ## 📱 Preview
 
-![Preview Website](https://via.placeholder.com/800x600/667eea/ffffff?text=Preview+Coming+Soon)
+soon
 
 ## 📁 Struktur Project
 
@@ -63,14 +59,7 @@ Edit file `resources/views/aboutme.blade.php`:
 
 ### Mengubah Warna Gradasi
 
-Edit file `public/css/style.css`:
-
-```css
-/* OPSI 1: Ultra Smooth Gradient (Current) */
-background:
-    radial-gradient(circle at 20% 50%, rgba(R, G, B, 0.25) 0%, ...),
-    linear-gradient(135deg, #warna1 0%, #warna2 100%);
-```
+Edit file `public/css/style.css`, disana ada banyak opsi warna background yang bisa anda pilih sesuai selera.
 
 ### Mengubah Foto Profil
 
@@ -133,16 +122,6 @@ Ganti file `public/images/ig.jpg` dengan foto Anda sendiri.
 - **SEO Friendly**: Struktur HTML yang optimal untuk search engine
 - **Fast Loading**: Optimized untuk performa maksimal
 - **Cross-browser Compatible**: Mendukung semua browser modern
-
-## 🤝 Kontribusi
-
-Kontribusi sangat diterima! Silakan:
-
-1. Fork project ini
-2. Buat branch fitur baru (`git checkout -b feature/AmazingFeature`)
-3. Commit perubahan (`git commit -m 'Add some AmazingFeature'`)
-4. Push ke branch (`git push origin feature/AmazingFeature`)
-5. Buat Pull Request
 
 ## 📄 Lisensi
 
