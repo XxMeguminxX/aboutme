@@ -130,16 +130,6 @@ Ganti file `public/images/ig.jpg` dengan foto Anda sendiri.
 - **Fast Loading**: Optimized untuk performa maksimal
 - **Cross-browser Compatible**: Mendukung semua browser modern
 
-## 🤝 Kontribusi
-
-Kontribusi sangat diterima! Silakan:
-
-1. Fork project ini
-2. Buat branch fitur baru (`git checkout -b feature/AmazingFeature`)
-3. Commit perubahan (`git commit -m 'Add some AmazingFeature'`)
-4. Push ke branch (`git push origin feature/AmazingFeature`)
-5. Buat Pull Request
-
 ## 📄 Lisensi
 
 Project ini menggunakan lisensi MIT. Lihat file `LICENSE` untuk detail lebih lanjut.
