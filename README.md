@@ -21,13 +21,9 @@ Sebuah website personal yang sederhana namun elegan, menampilkan profil diri dal
 - **Font Awesome**: Library ikon untuk media sosial
 - **Google Fonts**: Typography yang modern dan elegan
 
-## 🚀 Demo
-
-Kunjungi website live: [Kartu Profil Personal](https://github.com/XxMeguminxX)
-
 ## 📱 Preview
 
-![Preview Website](https://via.placeholder.com/800x600/667eea/ffffff?text=Preview+Coming+Soon)
+soon
 
 ## 📁 Struktur Project
 
