@@ -1,11 +1,303 @@
 /* Import Font dari Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@700&family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap');
 
 /* Reset dasar dan gaya untuk body */
 body {
-    background-color: #E6E6E6; /* Warna latar belakang abu-abu muda */
-    font-family: 'Poppins', sans-serif; /* Font default untuk teks */
-    color: #333; /* Warna teks gelap */
+    /* EFEK BACKGROUND SETTINGS */
+    /* Untuk mengatur intensitas efek, ubah nilai opacity (0.1 - 0.5) */
+    /* Untuk menonaktifkan efek, ubah menjadi 0 */
+
+    /* OPSI 1: Ultra Smooth Gradient (Current) */
+    /* background:
+        radial-gradient(circle at 20% 50%, rgba(120, 119, 198, 0.25) 0%, rgba(120, 119, 198, 0.15) 25%, rgba(120, 119, 198, 0.05) 50%, transparent 70%),
+        radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.2) 0%, rgba(255, 119, 198, 0.1) 30%, rgba(255, 119, 198, 0.03) 60%, transparent 80%),
+        radial-gradient(circle at 40% 80%, rgba(120, 219, 226, 0.18) 0%, rgba(120, 219, 226, 0.08) 35%, rgba(120, 219, 226, 0.02) 65%, transparent 85%),
+        linear-gradient(135deg,
+            #f093fb 0%,
+            #f77fbe 15%,
+            #f66ba5 30%,
+            #f5576c 45%,
+            #e64c65 60%,
+            #d6405e 75%,
+            #c23858 90%,
+            #4facfe 100%); */
+
+    /* OPSI 2: Smooth Sunset (Uncomment untuk menggunakan) */
+    /* background:
+        radial-gradient(circle at 30% 40%, rgba(255, 154, 158, 0.25) 0%, rgba(255, 154, 158, 0.15) 30%, rgba(255, 154, 158, 0.05) 60%, transparent 80%),
+        radial-gradient(circle at 70% 60%, rgba(254, 207, 239, 0.2) 0%, rgba(254, 207, 239, 0.1) 40%, rgba(254, 207, 239, 0.03) 70%, transparent 90%),
+        linear-gradient(135deg,
+            #ff9a9e 0%,
+            #fdb0b3 20%,
+            #fecfef 40%,
+            #fed6e3 60%,
+            #fecfef 80%,
+            #fecfef 100%); */
+
+    /* OPSI 3: Smooth Ocean (Uncomment untuk menggunakan) */
+    /* background:
+        radial-gradient(circle at 25% 35%, rgba(102, 126, 234, 0.25) 0%, rgba(102, 126, 234, 0.15) 35%, rgba(102, 126, 234, 0.05) 65%, transparent 85%),
+        radial-gradient(circle at 75% 65%, rgba(118, 75, 162, 0.2) 0%, rgba(118, 75, 162, 0.1) 45%, rgba(118, 75, 162, 0.03) 75%, transparent 95%),
+        linear-gradient(135deg,
+            #667eea 0%,
+            #6c7ce8 15%,
+            #727de6 30%,
+            #787ee4 45%,
+            #7e7fe2 60%,
+            #8480e0 75%,
+            #8a81de 90%,
+            #764ba2 100%); */
+
+    /* OPSI 4: Smooth Forest (Uncomment untuk menggunakan) */
+    /* background:
+        radial-gradient(circle at 35% 45%, rgba(19, 78, 94, 0.25) 0%, rgba(19, 78, 94, 0.15) 40%, rgba(19, 78, 94, 0.05) 70%, transparent 90%),
+        radial-gradient(circle at 65% 55%, rgba(113, 178, 128, 0.2) 0%, rgba(113, 178, 128, 0.1) 50%, rgba(113, 178, 128, 0.03) 80%, transparent 100%),
+        linear-gradient(135deg,
+            #134e5e 0%,
+            #2a5a6b 20%,
+            #417678 40%,
+            #589285 60%,
+            #6fae92 80%,
+            #71b280 100%); */
+
+    /* OPSI 5: Smooth Gray (Uncomment untuk menggunakan) */
+    /* background:
+        radial-gradient(circle at 40% 50%, rgba(245, 247, 250, 0.4) 0%, rgba(245, 247, 250, 0.2) 50%, rgba(245, 247, 250, 0.05) 80%, transparent 100%),
+        radial-gradient(circle at 60% 30%, rgba(195, 207, 226, 0.3) 0%, rgba(195, 207, 226, 0.15) 60%, rgba(195, 207, 226, 0.03) 90%, transparent 110%),
+        linear-gradient(135deg,
+            #f5f7fa 0%,
+            #f0f2f5 25%,
+            #ebeef1 50%,
+            #e6eaed 75%,
+            #c3cfe2 100%); */
+
+    /* OPSI 6: Smooth Coffee (Uncomment untuk menggunakan) */
+    /* background:
+        radial-gradient(circle at 30% 40%, rgba(209, 145, 60, 0.25) 0%, rgba(209, 145, 60, 0.15) 40%, rgba(209, 145, 60, 0.05) 70%, transparent 90%),
+        radial-gradient(circle at 70% 60%, rgba(255, 209, 148, 0.2) 0%, rgba(255, 209, 148, 0.1) 50%, rgba(255, 209, 148, 0.03) 80%, transparent 100%),
+        linear-gradient(135deg,
+            #d1913c 0%,
+            #d89b4a 20%,
+            #e0a558 40%,
+            #e8af66 60%,
+            #f0b974 80%,
+            #ffd194 100%); */
+
+    /* OPSI 7: Ultra Smooth Purple (Uncomment untuk menggunakan) */
+    /* background:
+        radial-gradient(circle at 20% 30%, rgba(168, 237, 234, 0.22) 0%, rgba(168, 237, 234, 0.12) 25%, rgba(168, 237, 234, 0.06) 50%, rgba(168, 237, 234, 0.02) 75%, transparent 90%),
+        radial-gradient(circle at 80% 70%, rgba(254, 214, 227, 0.25) 0%, rgba(254, 214, 227, 0.15) 30%, rgba(254, 214, 227, 0.08) 55%, rgba(254, 214, 227, 0.03) 80%, transparent 95%),
+        linear-gradient(135deg,
+            #a8edea 0%,
+            #b4f0ed 10%,
+            #c0f3f0 20%,
+            #ccf6f3 30%,
+            #d8f9f6 40%,
+            #e4fcf9 50%,
+            #f0fffc 60%,
+            #fed6e3 70%,
+            #feccd9 80%,
+            #fec3cf 90%,
+            #febac5 100%); */
+
+    /* OPSI 8: Hyper Smooth Dark (Uncomment untuk menggunakan) */
+    /* background:
+        radial-gradient(circle at 30% 40%, rgba(15, 15, 35, 0.35) 0%, rgba(15, 15, 35, 0.25) 20%, rgba(15, 15, 35, 0.15) 40%, rgba(15, 15, 35, 0.08) 60%, rgba(15, 15, 35, 0.03) 80%, transparent 95%),
+        radial-gradient(circle at 70% 60%, rgba(26, 26, 46, 0.3) 0%, rgba(26, 26, 46, 0.2) 25%, rgba(26, 26, 46, 0.12) 45%, rgba(26, 26, 46, 0.06) 65%, rgba(26, 26, 46, 0.02) 85%, transparent 100%),
+        linear-gradient(135deg,
+            #0f0f23 0%,
+            #111128 12%,
+            #13132d 25%,
+            #151532 37%,
+            #171737 50%,
+            #19193c 62%,
+            #1b1b41 75%,
+            #1d1d46 87%,
+            #1a1a2e 100%); */
+
+    /* OPSI 9: Super Smooth Mint (Uncomment untuk menggunakan) */
+    /* background:
+        radial-gradient(circle at 25% 35%, rgba(72, 202, 228, 0.23) 0%, rgba(72, 202, 228, 0.14) 22%, rgba(72, 202, 228, 0.08) 45%, rgba(72, 202, 228, 0.04) 68%, rgba(72, 202, 228, 0.01) 90%, transparent 110%),
+        radial-gradient(circle at 75% 65%, rgba(2, 62, 138, 0.25) 0%, rgba(2, 62, 138, 0.16) 28%, rgba(2, 62, 138, 0.09) 52%, rgba(2, 62, 138, 0.05) 76%, rgba(2, 62, 138, 0.02) 95%, transparent 120%),
+        linear-gradient(135deg,
+            #48cae4 0%,
+            #4fd3e8 8%,
+            #56dcec 17%,
+            #5de5f0 25%,
+            #64eef4 33%,
+            #6bf7f8 42%,
+            #72fffc 50%,
+            #6af7f8 58%,
+            #62eff4 67%,
+            #5ae7f0 75%,
+            #52dfec 83%,
+            #4ad7e8 92%,
+            #023e8a 100%); */
+
+    /* OPSI 10: Ultra Smooth Custom - WARNA MATCHING (Current) */
+
+    /* VARIASI WARNA UNTUK MATCHING DENGAN FOTO PROFIL */
+
+    /* 10A: Soft Blue & Pink (Default - cocok untuk foto casual) */
+    /* background:
+        radial-gradient(circle at 15% 25%, rgba(135, 206, 250, 0.18) 0%, rgba(135, 206, 250, 0.12) 15%, rgba(135, 206, 250, 0.08) 30%, rgba(135, 206, 250, 0.04) 45%, rgba(135, 206, 250, 0.02) 60%, transparent 75%),
+        radial-gradient(circle at 85% 75%, rgba(255, 182, 193, 0.2) 0%, rgba(255, 182, 193, 0.14) 18%, rgba(255, 182, 193, 0.09) 35%, rgba(255, 182, 193, 0.05) 52%, rgba(255, 182, 193, 0.02) 68%, transparent 83%),
+        radial-gradient(circle at 50% 85%, rgba(176, 224, 230, 0.16) 0%, rgba(176, 224, 230, 0.11) 20%, rgba(176, 224, 230, 0.07) 40%, rgba(176, 224, 230, 0.04) 60%, rgba(176, 224, 230, 0.01) 80%, transparent 95%),
+        linear-gradient(135deg,
+            #87ceeb 0%, #89d0ed 5%, #8bd2ef 10%, #8dd4f1 15%, #8fd6f3 20%, #91d8f5 25%, #93daf7 30%, #95dcf9 35%, #97defb 40%, #99e0fd 45%, #9be2ff 50%,
+            #ffb6c1 55%, #ffb8c4 60%, #ffbac7 65%, #ffbcca 70%, #ffbecd 75%, #ffc0d0 80%, #ffc2d3 85%, #ffc4d6 90%, #ffc6d9 95%, #ffc8dc 100%); */
+
+    /* 10B: Warm Earth Tones (Uncomment jika foto Anda warm/coklat) */
+    background:
+        radial-gradient(circle at 15% 25%, rgba(222, 184, 135, 0.18) 0%, rgba(222, 184, 135, 0.12) 15%, rgba(222, 184, 135, 0.08) 30%, rgba(222, 184, 135, 0.04) 45%, rgba(222, 184, 135, 0.02) 60%, transparent 75%),
+        radial-gradient(circle at 85% 75%, rgba(255, 228, 196, 0.2) 0%, rgba(255, 228, 196, 0.14) 18%, rgba(255, 228, 196, 0.09) 35%, rgba(255, 228, 196, 0.05) 52%, rgba(255, 228, 196, 0.02) 68%, transparent 83%),
+        radial-gradient(circle at 50% 85%, rgba(210, 180, 140, 0.16) 0%, rgba(210, 180, 140, 0.11) 20%, rgba(210, 180, 140, 0.07) 40%, rgba(210, 180, 140, 0.04) 60%, rgba(210, 180, 140, 0.01) 80%, transparent 95%),
+        linear-gradient(135deg,
+            #deb887 0%, #dfc58b 5%, #e0d28f 10%, #e1df93 15%, #e2ec97 20%, #e3f99b 25%, #e4ff9f 30%, #e5ffa3 35%, #e6ffb7 40%, #e7ffcb 45%, #e8ffdf 50%,
+            #ffe4c4 55%, #ffe5c8 60%, #ffe6cc 65%, #ffe7d0 70%, #ffe8d4 75%, #ffe9d8 80%, #ffe9dc 85%, #ffeae0 90%, #ffebe4 95%, #ffece8 100%);
+
+    /* 10C: Cool Professional (Uncomment jika foto formal/professional) */
+    /* background:
+        radial-gradient(circle at 15% 25%, rgba(176, 196, 222, 0.18) 0%, rgba(176, 196, 222, 0.12) 15%, rgba(176, 196, 222, 0.08) 30%, rgba(176, 196, 222, 0.04) 45%, rgba(176, 196, 222, 0.02) 60%, transparent 75%),
+        radial-gradient(circle at 85% 75%, rgba(220, 220, 220, 0.2) 0%, rgba(220, 220, 220, 0.14) 18%, rgba(220, 220, 220, 0.09) 35%, rgba(220, 220, 220, 0.05) 52%, rgba(220, 220, 220, 0.02) 68%, transparent 83%),
+        radial-gradient(circle at 50% 85%, rgba(192, 192, 192, 0.16) 0%, rgba(192, 192, 192, 0.11) 20%, rgba(192, 192, 192, 0.07) 40%, rgba(192, 192, 192, 0.04) 60%, rgba(192, 192, 192, 0.01) 80%, transparent 95%),
+        linear-gradient(135deg,
+            #b0c4de 0%, #b2c6e0 5%, #b4c8e2 10%, #b6cae4 15%, #b8cce6 20%, #bacee8 25%, #bcd0ea 30%, #bed2ec 35%, #c0d4ee 40%, #c2d6f0 45%, #c4d8f2 50%,
+            #dcdcdc 55%, #dedede 60%, #e0e0e0 65%, #e2e2e2 70%, #e4e4e4 75%, #e6e6e6 80%, #e8e8e8 85%, #eaeaea 90%, #ececec 95%, #eeeeee 100%); */
+
+    /* 10D: Vibrant Youthful (Uncomment jika foto colorful/energetic) */
+    /* background:
+        radial-gradient(circle at 15% 25%, rgba(255, 105, 180, 0.18) 0%, rgba(255, 105, 180, 0.12) 15%, rgba(255, 105, 180, 0.08) 30%, rgba(255, 105, 180, 0.04) 45%, rgba(255, 105, 180, 0.02) 60%, transparent 75%),
+        radial-gradient(circle at 85% 75%, rgba(0, 255, 255, 0.2) 0%, rgba(0, 255, 255, 0.14) 18%, rgba(0, 255, 255, 0.09) 35%, rgba(0, 255, 255, 0.05) 52%, rgba(0, 255, 255, 0.02) 68%, transparent 83%),
+        radial-gradient(circle at 50% 85%, rgba(255, 255, 0, 0.16) 0%, rgba(255, 255, 0, 0.11) 20%, rgba(255, 255, 0, 0.07) 40%, rgba(255, 255, 0, 0.04) 60%, rgba(255, 255, 0, 0.01) 80%, transparent 95%),
+        linear-gradient(135deg,
+            #ff69b4 0%, #ff6bb7 5%, #ff6dba 10%, #ff6fbd 15%, #ff71c0 20%, #ff73c3 25%, #ff75c6 30%, #ff77c9 35%, #ff79cc 40%, #ff7bcf 45%, #ff7dd2 50%,
+            #00ffff 55%, #1affff 60%, #33ffff 65%, #4dffff 70%, #66ffff 75%, #80ffff 80%, #99ffff 85%, #b3ffff 90%, #ccffff 95%, #e6ffff 100%); */
+
+    /* 10E: Custom Color Template (Copy ini untuk buat warna custom) */
+    /* background:
+        radial-gradient(circle at 15% 25%, rgba(R, G, B, 0.18) 0%, rgba(R, G, B, 0.12) 15%, rgba(R, G, B, 0.08) 30%, rgba(R, G, B, 0.04) 45%, rgba(R, G, B, 0.02) 60%, transparent 75%),
+        radial-gradient(circle at 85% 75%, rgba(R, G, B, 0.2) 0%, rgba(R, G, B, 0.14) 18%, rgba(R, G, B, 0.09) 35%, rgba(R, G, B, 0.05) 52%, rgba(R, G, B, 0.02) 68%, transparent 83%),
+        radial-gradient(circle at 50% 85%, rgba(R, G, B, 0.16) 0%, rgba(R, G, B, 0.11) 20%, rgba(R, G, B, 0.07) 40%, rgba(R, G, B, 0.04) 60%, rgba(R, G, B, 0.01) 80%, transparent 95%),
+        linear-gradient(135deg,
+            #your-color-1 0%, #your-color-1-light 5%, #your-color-1-medium 10%, #your-color-1-dark 15%, #transition-color 20%,
+            #transition-color-light 25%, #transition-color-medium 30%, #transition-color-dark 35%, #your-color-2 40%, #your-color-2-light 45%, #your-color-2-medium 50%,
+            #your-color-2-dark 55%, #transition-color-2 60%, #transition-color-2-light 65%, #transition-color-2-medium 70%, #transition-color-2-dark 75%, #final-color 80%,
+            #final-color-light 85%, #final-color-medium 90%, #final-color-dark 95%, #final-color 100%); */
+
+    /* CARA MENGGUNAKAN WARNA MATCHING GRADASI:
+     * 1. PILIH OPSI BERDASARKAN JENIS FOTO ANDA:
+     *    - 10A: Soft Blue & Pink (foto casual, santai)
+     *    - 10B: Warm Earth Tones (foto hangat, coklat, outdoor)
+     *    - 10C: Cool Professional (foto formal, korporat)
+     *    - 10D: Vibrant Youthful (foto colorful, energetic)
+     *
+     * 2. CARA MENGGANTI WARNA:
+     *    - Uncomment opsi yang diinginkan
+     *    - Comment opsi yang sedang aktif
+     *    - Simpan dan refresh browser
+     *
+     * 🎨 TIPS CUSTOMIZE WARNA MATCHING:
+     *
+     * 1. ANALISIS WARNA FOTO ANDA:
+     *    - Warna dominan apa yang ada di foto?
+     *    - Tone hangat (orange, brown) atau dingin (blue, green)?
+     *    - Brightness level: terang, sedang, atau gelap?
+     *
+     * 2. PILIH PALETTE YANG COCOK:
+     *    - Foto WARM: Gunakan warna orange, brown, cream
+     *    - Foto COOL: Gunakan warna blue, green, purple
+     *    - Foto BRIGHT: Gunakan warna pastel, soft
+     *    - Foto DARK: Gunakan warna navy, charcoal, deep
+     *
+     * 3. CARA GANTI WARNA SECARA MANUAL:
+     *    - Cari kode hex color (contoh: #87ceeb = sky blue)
+     *    - Ganti warna di linear-gradient dengan warna pilihan
+     *    - Pertahankan pola smooth transition (5% steps)
+     *
+     * 4. CONTOH WARNA HEX POPULER:
+     *    #87CEEB (Sky Blue)   #FFB6C1 (Light Pink)
+     *    #DEB887 (Burlywood)  #FFE4C4 (Bisque)
+     *    #B0C4DE (Light Steel) #DCDCDC (Gainsboro)
+     *    #FF69B4 (Hot Pink)   #00FFFF (Cyan)
+     *
+     * 📱 WARNA UNTUK BERBAGAI JENIS FOTO:
+     *
+     * SELFIE CASUAL:
+     *    - Soft blue + pink tones
+     *    - Light lavender + peach
+     *    - Mint green + coral
+     *
+     * PORTRAIT FORMAL:
+     *    - Navy blue + silver
+     *    - Charcoal + gold accents
+     *    - Deep purple + cream
+     *
+     * OUTDOOR/OUTSIDE:
+     *    - Forest green + warm brown
+     *    - Sunset orange + yellow
+     *    - Ocean blue + sandy beige
+     *
+     * PARTY/EVENT:
+     *    - Vibrant colors (red, yellow, pink)
+     *    - Neon tones + metallic
+     *    - Rainbow spectrum
+     *
+     * 💡 PRO TIP:
+     * - Test beberapa opsi untuk lihat yang paling cocok
+     * - Jika ingin custom, copy satu opsi dan modifikasi warnanya
+     * - Gunakan tools online untuk generate color palette dari foto
+     *
+     * 🔧 CARA CEPAT CUSTOM WARNA:
+     *
+     * 1. GANTI WARNA UTAMA:
+     *    - Cari warna hex yang Anda suka (contoh: #FF6B6B = coral)
+     *    - Ganti warna pertama di linear-gradient
+     *    - Buat variasi dengan menambah/mengurangi brightness
+     *
+     * 2. BUAT VARIASI WARNA:
+     *    - Color + 10 = lebih terang: #FF6B6B → #FF7B7B
+     *    - Color - 10 = lebih gelap: #FF6B6B → #FF5B5B
+     *    - Mix dengan warna lain untuk transition
+     *
+     * 3. CONTOH WARNA YANG SERING COCOK:
+     *
+     *    UNTUK SELFIE CASUAL:
+     *    #87CEEB (Sky Blue)    #FFB6C1 (Light Pink)   #98FB98 (Pale Green)
+     *    #DDA0DD (Plum)        #F0E68C (Khaki)        #FFA07A (Light Salmon)
+     *
+     *    UNTUK PORTRAIT FORMAL:
+     *    #2F4F4F (Dark Slate)  #708090 (Slate Gray)   #778899 (Light Slate)
+     *    #B0C4DE (Light Steel) #DCDCDC (Gainsboro)    #F5F5F5 (White Smoke)
+     *
+     *    UNTUK FOTO OUTDOOR:
+     *    #8FBC8F (Dark Sea)    #DEB887 (Burlywood)    #F4A460 (Sandy Brown)
+     *    #D2691E (Chocolate)   #CD853F (Peru)         #BC8F8F (Rosy Brown)
+     *
+     *    UNTUK FOTO PARTY:
+     *    #FF1493 (Deep Pink)   #00CED1 (Dark Turquoise) #FFD700 (Gold)
+     *    #FF4500 (Orange Red)  #DA70D6 (Orchid)        #32CD32 (Lime Green)
+     *
+     * 4. TOOLS ONLINE UNTUK GENERATE PALETTE:
+     *    - Adobe Color Wheel: color.adobe.com
+     *    - Coolors: coolors.co
+     *    - Material Color Tool: material.io/design/color
+     *    - Color Hunt: colorhunt.co
+     *
+     * 5. TIPS WARNA PSYCHOLOGY:
+     *    - BLUE: Trust, calm, professional
+     *    - GREEN: Nature, growth, harmony
+     *    - PINK: Love, gentle, feminine
+     *    - PURPLE: Creative, luxury, mystery
+     *    - ORANGE: Energy, enthusiasm, warm
+     *    - GRAY: Sophisticated, modern, neutral
+     */
+
+    background-size: 400px 400px, 300px 300px, 500px 500px, cover;
+    background-position: 0% 0%, 100% 0%, 100% 100%, center;
+    background-attachment: fixed;
+    font-family: 'Inter', sans-serif;
+    color: #2c3e50;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,103 +305,360 @@ body {
     margin: 0;
     padding: 20px;
     box-sizing: border-box;
+    position: relative;
 }
 
-/* Wadah utama untuk kartu profil */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+        url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Ccircle cx='30' cy='30' r='1.5'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+        linear-gradient(45deg, transparent 49%, rgba(255, 255, 255, 0.03) 49%, rgba(255, 255, 255, 0.03) 51%, transparent 51%);
+    background-size: 60px 60px, 20px 20px;
+    pointer-events: none;
+    z-index: -1;
+    animation: subtleMove 20s ease-in-out infinite;
+}
+
+/* ANIMASI SETTINGS */
+/* Untuk mengatur kecepatan animasi, ubah nilai detik (contoh: 20s, 6s) */
+/* Untuk menonaktifkan animasi, ubah menjadi 0s atau hapus baris animation */
+
+@keyframes subtleMove {
+    0%, 100% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(5px, -5px) rotate(1deg); }
+    50% { transform: translate(-5px, 5px) rotate(-1deg); }
+    75% { transform: translate(3px, -3px) rotate(0.5deg); }
+}
+
+/* Floating elements animation */
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+}
+
 .profile-card {
     text-align: center;
     max-width: 600px;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(15px);
+    padding: 50px 40px;
+    border-radius: 20px;
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.12),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    margin: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    position: relative;
+    overflow: hidden;
+    animation: float 6s ease-in-out infinite; /* Ubah 6s untuk mengatur kecepatan */
+}
+
+.profile-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
 }
 
 /* Gaya untuk gambar profil */
 .profile-image {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%; /* Membuat gambar menjadi bulat */
-    border: 5px solid #C74B41; /* Bingkai merah di sekitar gambar */
-    object-fit: cover; /* Memastikan gambar tidak gepeng */
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 4px solid rgba(102, 126, 234, 0.4);
+    object-fit: cover;
+    margin-bottom: 15px;
+    transition: all 0.4s ease;
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.2);
+    position: relative;
+    z-index: 2;
+}
+
+.profile-image:hover {
+    transform: scale(1.08) rotate(2deg);
+    box-shadow: 0 12px 35px rgba(102, 126, 234, 0.3);
+}
+
+/* Glow effect around profile image */
+.profile-image::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    right: -8px;
+    bottom: -8px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, rgba(102, 126, 234, 0.3), rgba(240, 147, 251, 0.3));
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.profile-image:hover::before {
+    opacity: 1;
 }
 
 /* Gaya untuk judul utama "About Me" */
 h1 {
-    font-family: 'Fredoka', sans-serif; /* Font khusus yang lebih tebal dan bulat */
-    font-size: 3.5rem; /* Ukuran font besar */
-    margin: 20px 0 10px 0;
-    color: #222;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 25px 0 15px 0;
+    color: #2c3e50;
+    letter-spacing: -0.02em;
 }
 
 /* Gaya untuk paragraf bio */
 .bio {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #555;
-    margin-bottom: 20px;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #5a6c7d;
+    margin-bottom: 35px;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
 }
 
 .credit {
-    font-size: 0.8rem;
-    color: #888;
-    text-decoration: underline;
-    margin-bottom: 30px;
+    font-size: 0.85rem;
+    color: #95a5a6;
+    text-decoration: none;
+    margin-bottom: 35px;
+    font-weight: 500;
 }
 
 /* Wadah untuk link media sosial */
 .social-links {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .social-links a {
-    color: #333;
-    font-size: 1.5rem; /* Ukuran ikon */
-    margin: 0 15px; /* Spasi antar ikon */
+    color: #667eea;
+    font-size: 1.6rem;
+    margin: 0 18px;
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease;
+    display: inline-block;
 }
 
 .social-links a:hover {
-    color: #C74B41; /* Warna ikon berubah saat kursor diarahkan */
+    color: #764ba2;
+    transform: translateY(-3px);
+}
+
+/* Styling khusus untuk ikon WhatsApp */
+.social-links a .fa-whatsapp {
+    color: #25D366; /* Warna hijau WhatsApp */
+}
+
+.social-links a:hover .fa-whatsapp {
+    color: #128C7E; /* Warna hijau gelap saat hover */
+}
+
+/* Styling khusus untuk ikon GitHub */
+.social-links a .fa-github {
+    color: #333; /* Warna hitam GitHub */
+}
+
+.social-links a:hover .fa-github {
+    color: #24292e; /* Warna abu-abu gelap saat hover */
 }
 
 /* Wadah untuk tombol */
 .action-buttons {
     display: flex;
     justify-content: center;
-    gap: 15px; /* Spasi antara tombol */
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 /* Gaya dasar untuk semua tombol */
 .btn {
-    padding: 12px 25px;
-    border-radius: 30px; /* Sudut tombol yang melengkung */
+    padding: 14px 32px;
+    border-radius: 12px;
     text-decoration: none;
-    font-weight: 500;
-    font-size: 0.9rem;
+    font-weight: 600;
+    font-size: 0.95rem;
     display: inline-flex;
     align-items: center;
-    gap: 8px; /* Spasi antara ikon dan teks di tombol */
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    gap: 10px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+    min-width: 160px;
+    justify-content: center;
 }
 
-/* Gaya untuk tombol utama (merah) */
+/* Gaya untuk tombol utama */
 .btn-primary {
-    background-color: #C74B41;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    border: 2px solid #C74B41;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
 }
 
 .btn-primary:hover {
-    background-color: #a53c33;
     transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+    color: white;
 }
 
-/* Gaya untuk tombol kedua (transparan dengan border) */
+.btn-primary:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+}
+
+.btn-primary:hover:before {
+    left: 100%;
+}
+
+/* Gaya untuk tombol kedua */
 .btn-secondary {
-    background-color: transparent;
-    color: #333;
-    border: 2px solid #ccc;
+    background: rgba(255, 255, 255, 0.9);
+    color: #667eea;
+    border: 2px solid rgba(102, 126, 234, 0.3);
+    backdrop-filter: blur(10px);
 }
 
 .btn-secondary:hover {
-    background-color: #f0f0f0;
+    background: rgba(102, 126, 234, 0.1);
+    border-color: #667eea;
     transform: translateY(-2px);
+    color: #764ba2;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-card {
+        width: 92%;
+        padding: 40px 25px;
+        margin: 15px;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    .profile-image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .bio {
+        font-size: 1rem;
+        max-width: 400px;
+    }
+
+    .social-links a {
+        font-size: 1.4rem;
+        margin: 0 15px;
+    }
+
+    .btn {
+        padding: 12px 28px;
+        font-size: 0.9rem;
+        min-width: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-card {
+        width: 95% !important;
+        max-width: none !important;
+        padding: 30px 20px !important;
+        margin: 10px !important;
+        border-radius: 12px !important;
+        position: relative !important;
+        left: 0 !important;
+        right: 0 !important;
+        transform: none !important;
+    }
+
+    h1 {
+        font-size: 1.9rem;
+    }
+
+    .profile-image {
+        width: 100px;
+        height: 100px;
+        border-width: 3px;
+    }
+
+    .bio {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        max-width: 350px;
+    }
+
+    .social-links {
+        margin-bottom: 25px;
+    }
+
+    .social-links a {
+        font-size: 1.3rem;
+        margin: 0 12px;
+    }
+
+    /* FORCE CENTERING FOR MOBILE - ULTIMATE FIX */
+    .action-buttons {
+        position: relative !important;
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        text-align: center !important;
+        display: block !important;
+        clear: both !important;
+    }
+
+    .action-buttons .btn-primary {
+        /* Reset all properties */
+        margin: 0 !important;
+        padding: 0 !important;
+        position: relative !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        display: block !important;
+        width: 280px !important;
+        max-width: 90vw !important;
+        text-align: center !important;
+        padding: 14px 32px !important;
+        font-size: 0.9rem !important;
+        box-sizing: border-box !important;
+        float: none !important;
+        clear: both !important;
+        /* Additional centering force */
+        right: auto !important;
+        top: auto !important;
+        bottom: auto !important;
+    }
+
+    /* Alternative centering method if transform fails */
+    .action-buttons .btn-primary::before {
+        content: '' !important;
+        display: table !important;
+        margin: 0 auto !important;
+    }
 }
