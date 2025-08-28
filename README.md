@@ -33,7 +33,7 @@ aboutme/
 │   ├── css/
 │   │   └── style.css          # Styling dan desain utama
 │   ├── images/
-│   │   └── ig.jpg            # Foto profil
+│   │   └── profile.jpg            # Foto profil
 │   └── index.php             # Entry point
 ├── resources/
 │   └── views/
@@ -141,7 +141,6 @@ Project ini menggunakan lisensi MIT. Lihat file `LICENSE` untuk detail lebih lan
 - [Font Awesome](https://fontawesome.com/) - Library ikon yang digunakan
 - [Google Fonts](https://fonts.google.com/) - Typography yang elegan
 - [Laravel](https://laravel.com/) - Framework PHP yang powerful
-- [Unsplash](https://unsplash.com/) - Inspirasi desain
 
 ---
 
