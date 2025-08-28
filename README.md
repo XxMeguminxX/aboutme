@@ -59,14 +59,7 @@ Edit file `resources/views/aboutme.blade.php`:
 
 ### Mengubah Warna Gradasi
 
-Edit file `public/css/style.css`:
-
-```css
-/* OPSI 1: Ultra Smooth Gradient (Current) */
-background:
-    radial-gradient(circle at 20% 50%, rgba(R, G, B, 0.25) 0%, ...),
-    linear-gradient(135deg, #warna1 0%, #warna2 100%);
-```
+Edit file `public/css/style.css`, disana ada banyak opsi warna background yang bisa anda pilih sesuai selera
 
 ### Mengubah Foto Profil
 
