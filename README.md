@@ -33,7 +33,7 @@ aboutme/
 │   ├── css/
 │   │   └── style.css          # Styling dan desain utama
 │   ├── images/
-│   │   └── ig.jpg            # Foto profil
+│   │   └── profile.jpg            # Foto profil
 │   └── index.php             # Entry point
 ├── resources/
 │   └── views/
