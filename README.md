@@ -59,7 +59,7 @@ Edit file `resources/views/aboutme.blade.php`:
 
 ### Mengubah Warna Gradasi
 
-Edit file `public/css/style.css`, disana ada banyak opsi warna background yang bisa anda pilih sesuai selera
+Edit file `public/css/style.css`, disana ada banyak opsi warna background yang bisa anda pilih sesuai selera.
 
 ### Mengubah Foto Profil
 
