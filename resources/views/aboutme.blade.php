@@ -10,7 +10,7 @@
 <body>
 
     <div class="profile-card">
-        <img src="{{ asset('images/ig.jpg') }}" alt="Foto Profil" class="profile-image">
+        <img src="{{ asset('images/profile.jpg') }}" alt="Foto Profil" class="profile-image">
 
         <h1>Tentang Saya</h1>
 
