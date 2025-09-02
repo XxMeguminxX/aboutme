@@ -76,19 +76,19 @@
                         <div class="project-image">
                             <i class="fas fa-code project-icon"></i>
                         </div>
-                        <h3>Web Development Project</h3>
-                        <p>Proyek pengembangan web dengan teknologi terbaru. Fokus pada user experience dan performa yang optimal.</p>
+                        <h3>Simple Calculator</h3>
+                        <p>A simple calculator built with JavaScript</p>
                         <div class="project-tech">
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">Node.js</span>
-                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/XxMeguminxX" class="project-link" target="_blank">
+                            <a href="#" class="project-link" target="_blank">
                                 <i class="fab fa-github"></i> Code
                             </a>
-                            <a href="#" class="project-link live-link" target="_blank">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            <a href="" class="project-link live-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Soon
                             </a>
                         </div>
                     </div>
