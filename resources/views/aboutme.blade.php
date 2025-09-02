@@ -25,7 +25,7 @@
         </div>
 
         <div class="action-buttons">
-            <a href="mailto:hi@freedesigner.com" class="btn btn-primary">saputraerik042@gmail.com</a>
+            <a href="saputraerik042@gmail.com" class="btn btn-primary">saputraerik042@gmail.com</a>
         </div>
 
         <!-- Toggle Projects Button -->
