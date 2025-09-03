@@ -94,26 +94,30 @@
                     </div>
 
                     <!-- Project 3: Sample Project -->
-                    {{-- <div class="project-card">
+                    <div class="project-card">
                         <div class="project-image">
                             <i class="fas fa-mobile-alt project-icon"></i>
                         </div>
-                        <h3>Mobile App Project</h3>
-                        <p>Aplikasi mobile yang inovatif dengan UI/UX yang user-friendly. Menggunakan teknologi cross-platform untuk reach yang lebih luas.</p>
+                        <h3>MyStore - Online Marketplace</h3>
+                        <p>MyStore adalah platform web e-commerce modern yang dibangun dengan Laravel Framework: </br>
+                            🛒 Toko Online: Penjualan produk dengan sistem keranjang belanja
+                            Website ini terintegrasi dengan sistem pembayaran Tripay untuk memproses transaksi yang aman dan terpercaya.</p>
                         <div class="project-tech">
-                            <span class="tech-tag">React Native</span>
-                            <span class="tech-tag">Firebase</span>
-                            <span class="tech-tag">Redux</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">Laravel</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://github.com/XxMeguminxX" class="project-link" target="_blank">
+                            <a href="https://github.com/XxMeguminxX/MyStore" class="project-link" target="_blank">
                                 <i class="fab fa-github"></i> Code
                             </a>
                             <a href="#" class="project-link live-link" target="_blank">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
+                                <i class="fas fa-external-link-alt"></i> Soon
                             </a>
                         </div>
-                    </div> --}}
+                    </div>
                 </div>
     </div>
 
