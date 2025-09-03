@@ -25,7 +25,7 @@
         </div>
 
         <div class="action-buttons">
-            <a href="saputraerik042@gmail.com" class="btn btn-primary">saputraerik042@gmail.com</a>
+            <a href="mailto:saputraerik042@gmail.com" class="btn btn-primary">saputraerik042@gmail.com</a>
         </div>
 
         <!-- Toggle Projects Button -->
@@ -84,7 +84,7 @@
                             <span class="tech-tag">JavaScript</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" class="project-link" target="_blank">
+                            <a href="https://github.com/XxMeguminxX/simple_calculator" class="project-link" target="_blank">
                                 <i class="fab fa-github"></i> Code
                             </a>
                             <a href="" class="project-link live-link" target="_blank">
