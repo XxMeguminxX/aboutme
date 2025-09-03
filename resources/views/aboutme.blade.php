@@ -77,7 +77,7 @@
                             <i class="fas fa-code project-icon"></i>
                         </div>
                         <h3>Simple Calculator</h3>
-                        <p>A simple calculator built with JavaScript</p>
+                        <p>Kode kalukulator simpel yang dibuat dengan JavaScript</p>
                         <div class="project-tech">
                             <span class="tech-tag">HTML</span>
                             <span class="tech-tag">CSS</span>
