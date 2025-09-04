@@ -87,8 +87,8 @@
                             <a href="https://github.com/XxMeguminxX/simple_calculator" class="project-link" target="_blank">
                                 <i class="fab fa-github"></i> Code
                             </a>
-                            <a href="" class="project-link live-link" target="_blank">
-                                <i class="fas fa-external-link-alt"></i> Soon
+                            <a href="https://calculatorpreview.w3spaces.com/index.html" class="project-link live-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>Live Demo
                             </a>
                         </div>
                     </div>
