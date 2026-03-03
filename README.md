@@ -131,10 +131,7 @@ Project ini menggunakan lisensi MIT. Lihat file `LICENSE` untuk detail lebih lan
 
 **Erik Wahyu Saputra**
 - Email: saputraerik042@gmail.com
-- WhatsApp: +62 857-3918-8906
 - GitHub: [@XxMeguminxX](https://github.com/XxMeguminxX)
-- Instagram: [@erikwahyusaputraa](https://www.instagram.com/erikwahyusaputraa/)
-- Facebook: [Erik Wahyu Saputra](https://www.facebook.com/erikwahyu.saputra.547)
 
 ## Acknowledgments
 
