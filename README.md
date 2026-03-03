@@ -1,10 +1,10 @@
 # Kartu Profil Personal Modern
 
-## 📋 Deskripsi Proyek
+## Deskripsi Proyek
 
 Sebuah website personal yang sederhana namun elegan, menampilkan profil diri dalam format "kartu" yang ringkas. Desain ini menggunakan gradasi warna yang lembut sebagai latar belakang untuk menciptakan tampilan yang hangat dan modern. Proyek ini dibuat dengan fokus pada tipografi yang mudah dibaca dan navigasi yang intuitif, menjadikannya pilihan ideal untuk menampilkan informasi dasar dan tautan media sosial secara profesional.
 
-## ✨ Fitur Utama
+## Fitur Utama
 
 - **Tampilan kartu profil yang bersih**: Memberikan kesan minimalis dan terorganisir
 - **Gradasi warna latar belakang**: Latar belakang dinamis yang menambah sentuhan modern pada desain
@@ -13,7 +13,7 @@ Sebuah website personal yang sederhana namun elegan, menampilkan profil diri dal
 - **Responsive design**: Tampil optimal di desktop, tablet, dan mobile
 - **Animasi smooth**: Hover effects dan transitions yang halus
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 - **HTML5**: Struktur dasar halaman web
 - **CSS3**: Styling dan desain, termasuk gradasi warna dan penataan layout
@@ -21,11 +21,11 @@ Sebuah website personal yang sederhana namun elegan, menampilkan profil diri dal
 - **Font Awesome**: Library ikon untuk media sosial
 - **Google Fonts**: Typography yang modern dan elegan
 
-## 📱 Preview
+## Preview
 
 soon
 
-## 📁 Struktur Project
+## Struktur Project
 
 ```
 aboutme/
@@ -41,7 +41,7 @@ aboutme/
 └── README.md                 # Dokumentasi project
 ```
 
-## 🎨 Kustomisasi
+## Kustomisasi
 
 ### Mengubah Informasi Profil
 
@@ -65,7 +65,7 @@ Edit file `public/css/style.css`, disana ada banyak opsi warna background yang b
 
 Ganti file `public/images/ig.jpg` dengan foto Anda sendiri.
 
-## 🏃‍♂️ Cara Menjalankan
+## Cara Menjalankan
 
 ### Prerequisites
 
@@ -100,7 +100,7 @@ Ganti file `public/images/ig.jpg` dengan foto Anda sendiri.
 5. **Akses website:**
    Kunjungi `http://localhost:8000`
 
-## 📝 Cara Menggunakan
+## Cara Menggunakan
 
 1. **Kloning repositori ini:**
    ```bash
@@ -115,7 +115,7 @@ Ganti file `public/images/ig.jpg` dengan foto Anda sendiri.
 
 3. **Deploy ke hosting Anda**
 
-## 🎯 Fitur Tambahan
+## Fitur Tambahan
 
 - **10+ Opsi Gradasi Warna**: Pilih dari berbagai tema warna yang sudah disiapkan
 - **Fully Responsive**: Tampil optimal di semua device
@@ -123,11 +123,11 @@ Ganti file `public/images/ig.jpg` dengan foto Anda sendiri.
 - **Fast Loading**: Optimized untuk performa maksimal
 - **Cross-browser Compatible**: Mendukung semua browser modern
 
-## 📄 Lisensi
+## Lisensi
 
 Project ini menggunakan lisensi MIT. Lihat file `LICENSE` untuk detail lebih lanjut.
 
-## 📞 Kontak
+## Kontak
 
 **Erik Wahyu Saputra**
 - Email: saputraerik042@gmail.com
@@ -136,7 +136,7 @@ Project ini menggunakan lisensi MIT. Lihat file `LICENSE` untuk detail lebih lan
 - Instagram: [@erikwahyusaputraa](https://www.instagram.com/erikwahyusaputraa/)
 - Facebook: [Erik Wahyu Saputra](https://www.facebook.com/erikwahyu.saputra.547)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Font Awesome](https://fontawesome.com/) - Library ikon yang digunakan
 - [Google Fonts](https://fonts.google.com/) - Typography yang elegan
@@ -144,7 +144,7 @@ Project ini menggunakan lisensi MIT. Lihat file `LICENSE` untuk detail lebih lan
 
 ---
 
-⭐ **Jika Anda menyukai project ini, jangan lupa untuk memberikan star!**
+**Jika Anda menyukai project ini, jangan lupa untuk memberikan star!**
 
 ![GitHub stars](https://img.shields.io/github/stars/XxMeguminxX/aboutme?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/XxMeguminxX/aboutme?style=social)
