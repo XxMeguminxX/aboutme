@@ -9,6 +9,11 @@
 </head>
 <body>
 
+    <!-- Toggle Light/Dark Mode -->
+    <button class="dark-toggle" id="theme-toggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+    </button>
+
     <div class="profile-card">
         <img src="{{ asset('images/profile.jpg') }}" alt="Foto Profil" class="profile-image">
 
@@ -121,20 +126,60 @@
                 </div>
     </div>
 
-    <!-- JavaScript untuk Modal Projects -->
+    <!-- JavaScript untuk Modal Projects & Theme -->
     <script>
         console.log('JavaScript loaded!');
 
+        // =======================
+        // THEME TOGGLE (LIGHT/DARK)
+        // =======================
+        (function initThemeToggle() {
+            const body = document.body;
+            const themeToggle = document.getElementById('theme-toggle');
+            const themeIcon = themeToggle ? themeToggle.querySelector('i') : null;
+
+            if (!themeToggle) return;
+
+            // Apply saved theme (if any)
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark') {
+                body.classList.add('dark');
+            } else if (savedTheme === 'light') {
+                body.classList.remove('dark');
+            }
+
+            function updateIcon() {
+                if (!themeIcon) return;
+                if (body.classList.contains('dark')) {
+                    themeIcon.className = 'fas fa-sun';
+                } else {
+                    themeIcon.className = 'fas fa-moon';
+                }
+            }
+
+            updateIcon();
+
+            themeToggle.addEventListener('click', function () {
+                body.classList.toggle('dark');
+                const isDark = body.classList.contains('dark');
+                localStorage.setItem('theme', isDark ? 'dark' : 'light');
+                updateIcon();
+            });
+        })();
+
+        // =======================
+        // MODAL PROJECTS
+        // =======================
         // Function to initialize modal
         function initModal() {
             console.log('Initializing modal...');
 
             const toggleBtn = document.getElementById('toggle-projects');
             const toggleText = document.getElementById('toggle-text');
+            const toggleIcon = toggleBtn ? toggleBtn.querySelector('i') : null;
             const modal = document.getElementById('projects-modal');
             const closeBtn = document.getElementById('close-modal');
-            const toggleIcon = toggleBtn ? toggleBtn.querySelector('i') : null;
-
+            
             console.log('Elements found:', {
                 toggleBtn: toggleBtn,
                 toggleText: toggleText,
